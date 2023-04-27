@@ -1,0 +1,145 @@
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(179, 179, 179, 0.37);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0; left: 0;
+    padding: 0 50px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.logo{
+    width: 45px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.pc_menu{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 0.9em;
+}
+
+.mo_btn, .mo_menu, .mo_delbtn, .mo_menuwrap{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+
+    header{
+        height: 50px;
+    }
+
+    .logo{
+        width: 40px;
+    }
+    
+    .pc_menu{
+        display: none;
+    }
+    
+    .mo_btn, .mo_menu, .mo_delbtn{
+        display: block;
+    }
+
+    .mo_btn{
+        width: 20px;
+        height: 14px;
+    }
+
+    .mo_btn a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mo_btn .mo_btnicon{
+        width: 100%;
+        height: 3px;
+        background-color: antiquewhite;
+    }
+
+    .pop{
+        display: block;
+    }
+
+    .mo_menuwrap{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.702);
+        backdrop-filter: blur(10px);
+        top: 0; right: 0;
+        z-index: 999;
+        position: fixed;
+        display: none;
+    }
+
+    .mo_menu{
+        padding: 150px 50px;
+        box-sizing: border-box;
+        width: 75vw;
+        height: 100%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-transform: capitalize;
+        font-weight: 900;
+        font-size: 2em;
+        position: absolute;
+        right: 0; top: 0;
+    }
+
+
+    .mo_delbtn{
+        width: 30px;
+        height: 30px;
+        background-color: #fff;
+        position: absolute;
+        right: 75vw; top: 0;
+    }
+
+
+    .mo_delbtn a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fa-xmark{
+        font-size: 1.7em;
+        color: #161616;
+    }
+
+    .mo_delbtn:active{
+        background-color: #ff3300;
+    }
+
+    .mo_delbtn:active .fa-xmark{
+       color: #fff;
+    }
+
+
+    
+
+
+
+
+/* media end */
+}

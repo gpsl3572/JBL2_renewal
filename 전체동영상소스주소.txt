@@ -1,0 +1,5 @@
+jbl 전체 영상 
+
+https://youtu.be/2HbMyxc-B9o
+
+<iframe width="962" height="541" src="https://www.youtube.com/embed/2HbMyxc-B9o" title="[JBL] Power of Sound – 순간을 특별하게 편 | 삼성전자" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

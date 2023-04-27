@@ -1,0 +1,7 @@
+jbl 동영상 소스
+
+https://youtu.be/FAlGso0rL6A
+
+영상 코드
+
+<iframe width="860" height="523" src="https://www.youtube.com/embed/FAlGso0rL6A" title="삼성공식파트너 JBL PARTYBOX710 블루투스스피커" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
