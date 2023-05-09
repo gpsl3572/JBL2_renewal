@@ -1,0 +1,140 @@
+.sec5{
+    margin-bottom: 250px;
+}
+
+.con5{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.con5_box{
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* -------------------------------------- */
+.con5_box1{
+    width: 53%;
+}
+.con5_box2{
+    width: 43%;
+}
+/* --------------------------------------------- */
+
+.con5_box1imgbox{
+    width: 100%;
+}
+
+.con5_box1img{
+    height: 750px;
+}
+/* -------------------------------------------- */
+
+.con5_box2imgbox1{
+    width: 100%;
+    height: 600px;
+}
+
+.con5_box2imgbox1_img{
+    height: 500px;
+}
+
+/* ---------------------------------------------------- */
+.con5_box2imgbox2{
+    width: 100%;
+    height: 400px;
+}
+
+.con5_box2imgbox2_img{
+    height:350px;
+}
+
+/* ----------------------------------------------------- */
+
+.con5_box1img, .con5_box2imgbox1_img, .con5_box2imgbox2_img{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.con5_box1img img, .con5_box2imgbox1_img img, .con5_box2imgbox2_img img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* --------------------------------------------------------- */
+
+.con5_textbox{
+    color: #fff;
+    font-size: 1.36em;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    font-weight: 600;
+    opacity: 0.85;
+    margin: 20px 0 30px 0;
+}
+
+
+
+@media screen and (max-width:1405px) {
+
+    .sec5{
+        padding: 0 5%;
+        box-sizing: border-box;
+    }
+
+    .con5{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .con5_box{
+        width: 100%;
+    }
+
+    .con5_box1{
+        margin-bottom: 150px;
+    }
+
+    /* -------------------- */
+
+    .con5_box1imgbox{
+        height: 500px;
+    }
+
+    .con5_box2imgbox1_img, .con5_box2imgbox2{
+        height: 400px;
+    }
+
+    .con5_textbox{
+        margin-bottom: 30px;
+    }
+
+    .con5_box1img img, .con5_box2imgbox1_img img, .con5_box2imgbox2_img img{
+        display: none;
+    }
+
+    .con5_box1img{
+        background: url(../../img/sec5_mo1.png)no-repeat center /cover;
+    } 
+    .con5_box2imgbox1_img{
+        height: 340px;
+        background: url(../../img/sec5_mo2.png)no-repeat center/cover;
+    } 
+    .con5_box2imgbox2_img{
+        height: 340px;
+        background: url(../../img/sec5_mo3.png)no-repeat center/cover;
+    }
+
+
+
+/* media end */
+}

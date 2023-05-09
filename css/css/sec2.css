@@ -11,8 +11,8 @@
 }
 
 .con2_imgbox{
-    width: 42%;
-    height: 70%;
+    width: 45%;
+    height: 650px;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
@@ -20,23 +20,30 @@
 }
 
 .con2_imgbox img{
-    transform: scale(2);
+    transform: scale(2) rotateY(180deg);
 }
 
 .con2_textbox{
+    width: 45%;
     color: #fff;
 }
 
 .con2_textbox h1{
-    font-size: 4em;
-    margin-bottom: 15%;
+    font-size: 4.3em;
+    margin-bottom: 10%;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    line-height: 1.25em;
+    font-weight: 900;
 }
 
 .con2_textbox p{
-    font-size: 1.2em;
+    max-width: 420px;
+    font-size: 1.36em;
     letter-spacing: 1px;
-    line-height: 25px;
-    font-weight: 100;
+    line-height: 1.6em;
+    font-weight: 600;
+    opacity: 0.85;
 }
 
 
@@ -96,7 +103,7 @@
         font-size: 0.8em;
         letter-spacing: 1px;
         line-height: 15px;
-        font-weight: 100;
+        font-weight: 600;
     }
 
 

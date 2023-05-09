@@ -9,7 +9,7 @@
 }
 
 .con4_box{
-    width: 300px;
+    width: 30%;
 }
 
 .con4_imgbox{
@@ -21,7 +21,11 @@
 
 .con4_textbox{
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.36em;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    font-weight: 600;
+    opacity: 0.85;
     margin: 15px 0 10px 0;
 }
 
