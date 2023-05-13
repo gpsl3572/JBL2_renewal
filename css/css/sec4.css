@@ -1,6 +1,3 @@
-.sec4{
-    height: 100vh;
-}
 
 .con4_boxwrap{
     display: flex;
@@ -51,41 +48,27 @@
     display: none;
 }
 
-@media screen and (max-width:1550px) {
-
-    .con4{
-        padding: 0 10%;
-    }
-
-    .con4_boxwrap{
-        justify-content: space-around;
-    }
-
-}
 
 @media screen and (max-width:1160px) {
+
+    .con4{
+        padding: 80px 5%;
+    }
 
     .pc_con4{
         display: none;
     }
 
     .mo_con4{
-        width: 100%;
         display: block;
-        padding: 0 0 0 5%;
     }
-    .mo_con4 .con4_boxwrap{
-        justify-content: space-between;
-    }
-
+  
     .mo_con4 .con4_imgbox{
-        width: 280px;
         height: 400px;
     }
 
     .mo_con4 .con4_imgbox img{
         display: block;
-        width: 100%;
         height: 100%;
         object-fit: cover;
     }

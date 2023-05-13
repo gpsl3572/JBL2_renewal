@@ -17,12 +17,14 @@ section, footer{
     width: 100%;
 }
 
-.sec2, .sec3, .sec4, .sec5, .sec7, footer{
-    margin-bottom: 150px;
+.sec2, .sec3, .sec4, .sec5, .sec7{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    box-sizing: border-box;
 }
 
 .con1, .con2, .con4, .sec5{
-    padding: 200px 20% 0 20%;
+    padding: 0 20%;
     box-sizing: border-box;
 }
 

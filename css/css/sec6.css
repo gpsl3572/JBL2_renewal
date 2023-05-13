@@ -9,16 +9,28 @@
 }
 
 .sec6_conbox{
-    height: 550px;
+    height: 490px;
     display: flex;
-    align-items: center;
 }
 
 .sec6_con{
     width: 300px;
     height: 440px;
     border-radius: 20px;
-    box-shadow: 0px 0px 15px rgba(73, 73, 73, 0.4) ;
+    box-shadow: 0px 0px 15px rgba(73, 73, 73, 0.4);
+    background-color: #ececec;
+}
+
+.sec6_con a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6_con img{
+    width: 70%;
 }
 
 .swiper-scrollbar{
@@ -30,15 +42,11 @@
 }
 
 @media screen and (max-width:768px){
-
-    .sec6_conbox{
-        height: 300px;
+    
+    .sec6{
+        padding: 150px 0 150px 5%;
     }
 
-    .sec6_con{
-        width: 200px;
-        height: 200px;
-    }
 
 /* media end */
 }

@@ -1,5 +1,4 @@
 .sec2{
-    height: 100vh;
     background: url(../../img/sec2_bg.png)no-repeat top / cover;
 }
 
@@ -67,8 +66,18 @@
         height: 60%;
     }
 
+    .con2_textbox{
+        width: 100%;
+    }
+
+    .con2_textbox h1{
+        margin-bottom: 15%;
+        margin-top: 20%;
+    }
+    
+
     .con2_textbox p{
-        text-align: center;
+        text-align: left;
     }
 
 /* media end */
@@ -82,28 +91,30 @@
     }
 
     .con2{
-        padding: 0 5%;
+        padding: 20% 5%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
     }
 
     .con2_imgbox{
-        width: 80%;
+        width: 100%;
         height: 60%;
     }
 
     .con2_textbox h1{
-        text-align: center;
-        font-size: 2.3em;
+        text-align: left;
+        font-size: 3.2em;
         margin-bottom: 15%;
+        margin-top: 20%;
     }
     
     .con2_textbox p{
-        font-size: 0.8em;
+        font-size: 1em;
         letter-spacing: 1px;
-        line-height: 15px;
+        line-height: 25px;
         font-weight: 600;
+        text-align: left;
     }
 
 

@@ -31,6 +31,7 @@ header{
     font-size: 0.9em;
 }
 
+
 .mo_btn, .mo_menu, .mo_delbtn, .mo_menuwrap{
     display: none;
 }
@@ -85,7 +86,6 @@ header{
         top: 0; right: 0;
         z-index: 999;
         position: fixed;
-        display: none;
     }
 
     .mo_menu{
@@ -133,6 +133,10 @@ header{
 
     .mo_delbtn:active .fa-xmark{
        color: #fff;
+    }
+
+    .mo_menutext:active{
+        color: #ff3300;
     }
 
 
